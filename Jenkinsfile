@@ -1,6 +1,6 @@
 node {
 	stage('prepare') {
-		git branch: 'main', poll: false, url: 'https://github.com/sagary243/restro-devops.git'
+		git branch: 'main', poll: false, url: 'https://github.com/sagary243/restro.git'
 	}
 	
 	stage('build') {
